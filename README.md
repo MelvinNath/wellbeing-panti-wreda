@@ -1,19 +1,35 @@
 <<<<<<< HEAD
-# Getting Started with Create React App
+Wellbeing Panti Wreda Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a local-run app for nursing home Panti Wreda where the staff can track elderly, nursing home supplies, manage room availability and donations coming in.
 
-## Available Scripts
+## What does this app do?
 
-In the project directory, you can run:
+1. Helps staff members to track elderly health conditions such as blood sugar level, blood pressure, mental health, etc.
+2. Track elderly medicinal needs and log any incident reports.
+3. Track donations.
+4. Manage room availability (add new rooms, remove old rooms, change room categories).
 
-### `npm start`
+What 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### How does it work?
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This app has 2 levels of authority.
+1. Admin
+2. Staff
+
+This app has
+
+Each level has different authority
+Admin:
+- Has control over entire application features
+- Has control over Staff accounts
+- Has control over Donation section (not available for Staff)
+
+Staff:
+- Has control over some application features 
+- Able to input new members of the nursery home
+- 
 
 ### `npm test`
 

@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-Wellbeing Panti Wreda Application
+Wellbeing Panti Wreda Application >>>>>>>
 
 This is a local-run app for nursing home Panti Wreda where the staff can track elderly, nursing home supplies, manage room availability and donations coming in.
 
@@ -10,15 +10,11 @@ This is a local-run app for nursing home Panti Wreda where the staff can track e
 3. Track donations.
 4. Manage room availability (add new rooms, remove old rooms, change room categories).
 
-What 
-
 ### How does it work?
 
 This app has 2 levels of authority.
 1. Admin
 2. Staff
-
-This app has
 
 Each level has different authority
 Admin:
@@ -29,12 +25,22 @@ Admin:
 Staff:
 - Has control over some application features 
 - Able to input new members of the nursery home
-- 
 
-### `npm test`
+### App Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Input elderly (Input Oma & Opa)
+   This is where staff/admin can input elderly people who have just arrived at the nursing home. 
+   
+2. List of elderly (Daftar Oma & Opa)
+  
+   
+3. Report Log (Report Kejadian Oma & Opa)
+   
+4. Room Management (Manajemen Ruangan)
+   
+5. Donation (Kelola Pemasukan & Donasi) (Admin only)
+    
+7. User Management (Manajemen Pengguna) (Admin only)
 
 ### `npm run build`
 
